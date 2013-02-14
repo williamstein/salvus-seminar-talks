@@ -53,7 +53,9 @@
 			]
 		},
 		{
-			"id": "fe58325a-fbd3-4cef-8a67-366e94406089"
+			"id": "fe58325a-fbd3-4cef-8a67-366e94406089",
+			"note": "<h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\">Linear Algebra</h3>",
+			"input": "a = random_matrix(QQ"
 		},
 		{
 			"id": "82ba910a-f23e-4356-8977-5c3b79f9b6fe"
