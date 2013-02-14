@@ -20,7 +20,7 @@
 		},
 		{
 			"id": "86af1c8b-9f7b-4c1c-9757-a2a8c486ed69",
-			"input": "plot(f, (x, -pi,pi), ymin=-3, ymax=3, figsize=[8,3])",
+			"input": "plot(f, (x, -pi,pi), ymin=-3, ymax=3, figsize=[8,3], fil)",
 			"output": [
 				{
 					"file": {
