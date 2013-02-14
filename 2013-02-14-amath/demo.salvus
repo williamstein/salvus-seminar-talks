@@ -1,9 +1,18 @@
 {
-	"title": "Salvus Demo for AMath Talk",
-	"description": "(for AMath Talk on Feb 14,",
+	"title": "Salvus Demo",
+	"description": "(for AMath Talk on Feb 14, 2013)",
 	"content": [
 		{
 			"id": "2fd4805f-a887-4f20-8519-d2034797b848"
+		},
+		{
+			"id": "1d2b1ed8-6119-4763-9e5d-4e58b7f40610"
+		},
+		{
+			"id": "fe58325a-fbd3-4cef-8a67-366e94406089"
+		},
+		{
+			"id": "82ba910a-f23e-4356-8977-5c3b79f9b6fe"
 		}
 	]
 }
