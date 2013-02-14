@@ -5,7 +5,7 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "show command...",
-			"input": "def show(obj, **kwds):\n    if sage.plot.all.Graphics?"
+			"input": "def show(obj, **kwds):\n    import sage.plot.graphics.Graphics\n    if sage.plot.all.Graphics?"
 		},
 		{
 			"id": "adb1adce-4688-4de0-b80e-fb487dedc079",
@@ -24,7 +24,30 @@
 		},
 		{
 			"id": "f69213d5-7c74-47dd-b845-d0cd4db783be",
-			"input": "p = pl"
+			"input": "p = plot(sin)",
+			"output": [
+				{
+					"stdout": ""
+				}
+			]
+		},
+		{
+			"id": "cfddcdf3-bcad-47b2-bcd5-152e5cfc43e1",
+			"input": "type(p)",
+			"output": [
+				{
+					"stdout": "<class 'sage.plot.graphics.Graphics'>"
+				},
+				{
+					"stdout": "\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
+		},
+		{
+			"id": "e96f66c6-1518-421d-9c3f-903dfba82eea"
 		}
 	]
 }
