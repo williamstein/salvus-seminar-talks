@@ -3,11 +3,10 @@
 	"description": "(for AMath Talk on Feb 14, 2013)",
 	"content": [
 		{
-			"title": "Section",
+			"title": "Calculus Examples",
 			"content": [
 				{
 					"id": "2fd4805f-a887-4f20-8519-d2034797b848",
-					"note": "<div><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\">Examples in Calculus</h3></div>",
 					"input": "f(x) = sin(x)*tan(x)\nshow(f)",
 					"output": [
 						{
