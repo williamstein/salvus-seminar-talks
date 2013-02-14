@@ -14,13 +14,13 @@
 		},
 		{
 			"id": "b77ab041-3695-4dbf-852a-266add3666d1",
-			"input": "show(plot(sin), figsize=[5,2])",
+			"input": "show(plot(sin), figsize=[5,2], svg=True)",
 			"output": [
 				{
 					"file": {
 						"show": true,
-						"uuid": "74954b43-6ba4-4200-9b10-e06666328eca",
-						"filename": "/home/9a797ca6/.sage/temp/u/25107/tmp_EoRTYI.svg"
+						"uuid": "398ee58b-1fa4-4122-a15e-4956f9ac494b",
+						"filename": "/home/9a797ca6/.sage/temp/u/25107/tmp_vXBsRf.svg"
 					}
 				},
 				{
