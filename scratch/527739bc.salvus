@@ -5,7 +5,7 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "show command...",
-			"input": "def show(obj, **kwds):\n    import sage.plot.graphics.Graphics\n    if sage.plot.all.Graphics?"
+			"input": "def show(obj, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, \n    if sage.plot.all.Graphics?"
 		},
 		{
 			"id": "adb1adce-4688-4de0-b80e-fb487dedc079",
