@@ -131,7 +131,7 @@
 		},
 		{
 			"id": "25388fc6-2a7a-4ce0-964d-f89aababdb26",
-			"note": "We can compute the determinant in less than a second!",
+			"note": "Sage can compute the determinant in less than a second!",
 			"input": "%time a.det()",
 			"output": [
 				{
