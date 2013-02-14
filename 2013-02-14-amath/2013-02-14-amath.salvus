@@ -21,7 +21,7 @@
 		},
 		{
 			"id": "91989cfc-2f52-4ca4-99b7-528159f95816",
-			"note": "<div><br></div><div><br></div><div><br></div><div>Without further ado, let's try out Sage:</div>",
+			"note": "<div>(NOTE: I'm using Salvus -- a new experimental replacement for the Sage notebook --&nbsp;</div><div><br></div><div><br></div><div>Without further ado, let's try out Sage:</div>",
 			"input": "1 + 2 +3",
 			"output": [
 				{
