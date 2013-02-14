@@ -80,10 +80,10 @@
 		},
 		{
 			"id": "018cf81c-5444-433e-8190-2bf52a5c9389",
-			"input": "%html\n<font size=+1><center>\n<h1>Sage at UW in the near f</h1>\n</center>\n<br><br>\n<ul>\n<li> Spring 2013: I'm teaching a Math 480 on Sage.  Take it if you want to learn Sage.</li>\n    <br>\n<li> Summer 2013: I'm running a small REU on the web-based visualization of mathematical objects using Sage.   Apply if you love mathematics and HTML5.  You should apply for Jim Morrow's REU and put that you want to work with me. </li>\n<ul>",
+			"input": "%html\n<font size=+1><center>\n<h1>Sage at UW in the near future...</h1>\n</center>\n<br><br>\n<ul>\n<li> Spring 2013: I'm teaching a Math 480 on Sage.  Take it if you want to learn Sage.</li>\n    <br>\n<li> Summer 2013: I'm running a small REU on the web-based visualization of mathematical objects using Sage.   Apply if you love mathematics and HTML5.  You should apply for Jim Morrow's REU and put that you want to work with me. </li>\n<ul>",
 			"output": [
 				{
-					"html": "<font size=+1><center>\n<h1>Sage at UW -- upcoming opportunities</h1>\n</center>\n<br><br>\n<ul>\n<li> Spring 2013: I'm teaching a Math 480 on Sage.  Take it if you want to learn Sage.</li>\n    <br>\n<li> Summer 2013: I'm running a small REU on the web-based visualization of mathematical objects using Sage.   Apply if you love mathematics and HTML5.  You should apply for Jim Morrow's REU and put that you want to work with me. </li>\n<ul>"
+					"html": "<font size=+1><center>\n<h1>Sage at UW in the near future...</h1>\n</center>\n<br><br>\n<ul>\n<li> Spring 2013: I'm teaching a Math 480 on Sage.  Take it if you want to learn Sage.</li>\n    <br>\n<li> Summer 2013: I'm running a small REU on the web-based visualization of mathematical objects using Sage.   Apply if you love mathematics and HTML5.  You should apply for Jim Morrow's REU and put that you want to work with me. </li>\n<ul>"
 				},
 				{
 					"stdout": ""
