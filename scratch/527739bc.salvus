@@ -9,10 +9,22 @@
 		},
 		{
 			"id": "adb1adce-4688-4de0-b80e-fb487dedc079",
-			"input": "type(sage.plot.all.Graphics())"
+			"input": "type(sage.plot.all.Graphics())",
+			"output": [
+				{
+					"stdout": "<class 'sage.plot.graphics.Graphics'>"
+				},
+				{
+					"stdout": "\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
-			"id": "f69213d5-7c74-47dd-b845-d0cd4db783be"
+			"id": "f69213d5-7c74-47dd-b845-d0cd4db783be",
+			"input": "show??"
 		}
 	]
 }
