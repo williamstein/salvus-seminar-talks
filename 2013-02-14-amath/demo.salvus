@@ -4,7 +4,7 @@
 	"content": [
 		{
 			"id": "2fd4805f-a887-4f20-8519-d2034797b848",
-			"note": "<div>Calculus</div>",
+			"note": "<div><br></div><div>&nbsp; &nbsp;CALCULUS</div><div><br></div>",
 			"input": "f(x) = sin(x)*tan(x)\nshow(f)",
 			"output": [
 				{
