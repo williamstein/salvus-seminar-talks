@@ -19,6 +19,10 @@
 			]
 		},
 		{
+			"id": "86af1c8b-9f7b-4c1c-9757-a2a8c486ed69",
+			"input": "plot(f, "
+		},
+		{
 			"id": "1d2b1ed8-6119-4763-9e5d-4e58b7f40610",
 			"input": "g = integrate(f, x); g",
 			"output": [
