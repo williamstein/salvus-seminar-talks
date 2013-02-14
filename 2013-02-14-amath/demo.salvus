@@ -66,11 +66,12 @@
 			"content": [
 				{
 					"id": "fe58325a-fbd3-4cef-8a67-366e94406089",
+					"note": "Playing with a random 3x3 matrix.",
 					"input": "a = random_matrix(QQ, 3, num_bound=10, den_bound=10); show(a)",
 					"output": [
 						{
 							"tex": {
-								"tex": "\\left(\\begin{array}{rrr}\n\\frac{7}{3} & -1 & 4 \\\\\n-\\frac{8}{3} & -\\frac{1}{2} & -\\frac{8}{5} \\\\\n10 & \\frac{2}{3} & -\\frac{2}{7}\n\\end{array}\\right)",
+								"tex": "\\left(\\begin{array}{rrr}\n-\\frac{3}{8} & -\\frac{5}{3} & \\frac{5}{8} \\\\\n-\\frac{1}{2} & \\frac{3}{5} & \\frac{1}{3} \\\\\n8 & -\\frac{7}{6} & \\frac{10}{3}\n\\end{array}\\right)",
 								"display": true
 							}
 						},
@@ -80,7 +81,13 @@
 					]
 				},
 				{
+					"id": "aa7ac590-3ffb-4cee-8e36-cbb65c6679f2",
+					"note": "a \"dot tab\"",
+					"input": "a."
+				},
+				{
 					"id": "82ba910a-f23e-4356-8977-5c3b79f9b6fe",
+					"note": "<br>",
 					"input": "show(a^(-1))",
 					"output": [
 						{
