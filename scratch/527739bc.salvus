@@ -5,7 +5,7 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "show command...",
-			"input": "def show(obj, svg=True, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, Graphics):\n        t = tmp_filename() + ('.svg' if svg else '.png')       \n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        salvus.tex(obj, display=True, **kwds)",
+			"input": "from sage.plot.graphics import Graphics\nGraphics.show = show\n\ndef show(obj, svg=True, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, Graphics):\n        t = tmp_filename() + ('.svg' if svg else '.png')       \n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        salvus.tex(obj, display=True, **kwds)",
 			"output": [
 				{
 					"stdout": ""
@@ -14,7 +14,6 @@
 		},
 		{
 			"id": "f6b5c924-98f8-4bb1-bac9-02b5fd5070b4",
-			"input": "from sage.plot.graphics import Graphics\nGraphics.show = show\n",
 			"output": [
 				{
 					"stdout": ""
@@ -54,7 +53,22 @@
 		},
 		{
 			"id": "c3d66f7a-223b-4faa-8a2b-9ee9165ea63f",
-			"input": "plot(sin, figsize=[8,2])"
+			"input": "plot(sin, figsize=[8,2])",
+			"output": [
+				{
+					"file": {
+						"show": true,
+						"uuid": "f5c01003-c4ea-42d2-a72c-f304fa9563cd",
+						"filename": "/home/9a797ca6/.sage/temp/u/25107/tmp_LGS4x0.svg"
+					}
+				},
+				{
+					"stdout": "\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "24698c7f-cf28-4fdd-bfa0-682ef1f68e5a",
