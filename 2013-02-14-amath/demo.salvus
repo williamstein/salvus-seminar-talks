@@ -66,7 +66,6 @@
 			"content": [
 				{
 					"id": "fe58325a-fbd3-4cef-8a67-366e94406089",
-					"note": "<h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\">Some Linear Algebra Examples<br></h3>",
 					"input": "a = random_matrix(QQ, 3, num_bound=10, den_bound=10); show(a)",
 					"output": [
 						{
