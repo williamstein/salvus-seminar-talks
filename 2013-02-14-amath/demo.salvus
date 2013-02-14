@@ -3,54 +3,60 @@
 	"description": "(for AMath Talk on Feb 14, 2013)",
 	"content": [
 		{
-			"id": "2fd4805f-a887-4f20-8519-d2034797b848",
-			"note": "<div><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\">Examples in Calculus</h3></div>",
-			"input": "f(x) = sin(x)*tan(x)\nshow(f)",
-			"output": [
+			"title": "Section",
+			"content": [
 				{
-					"tex": {
-						"tex": "x \\ {\\mapsto}\\ \\sin\\left(x\\right) \\tan\\left(x\\right)",
-						"display": true
-					}
+					"id": "2fd4805f-a887-4f20-8519-d2034797b848",
+					"note": "<div><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\"><br></h3><h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\">Examples in Calculus</h3></div>",
+					"input": "f(x) = sin(x)*tan(x)\nshow(f)",
+					"output": [
+						{
+							"tex": {
+								"tex": "x \\ {\\mapsto}\\ \\sin\\left(x\\right) \\tan\\left(x\\right)",
+								"display": true
+							}
+						},
+						{
+							"stdout": ""
+						}
+					]
 				},
 				{
-					"stdout": ""
+					"id": "86af1c8b-9f7b-4c1c-9757-a2a8c486ed69",
+					"input": "plot(f, (x, -pi,pi), ymin=-3, ymax=3, figsize=[8,3], fill=True, gridlines=True)",
+					"output": [
+						{
+							"file": {
+								"show": true,
+								"uuid": "f0502560-98ce-4542-9cda-da23749e9329",
+								"filename": "/home/9a797ca6/.sage/temp/u/2339/tmp_8_0jdC.svg"
+							}
+						},
+						{
+							"stdout": "\n"
+						},
+						{
+							"stdout": ""
+						}
+					]
+				},
+				{
+					"id": "1d2b1ed8-6119-4763-9e5d-4e58b7f40610",
+					"input": "g = integrate(f, x); show(g)",
+					"output": [
+						{
+							"tex": {
+								"tex": "x \\ {\\mapsto}\\ -\\frac{1}{2} \\, \\log\\left(\\sin\\left(x\\right) - 1\\right) + \\frac{1}{2} \\, \\log\\left(\\sin\\left(x\\right) + 1\\right) - \\sin\\left(x\\right)",
+								"display": true
+							}
+						},
+						{
+							"stdout": ""
+						}
+					]
 				}
-			]
-		},
-		{
-			"id": "86af1c8b-9f7b-4c1c-9757-a2a8c486ed69",
-			"input": "plot(f, (x, -pi,pi), ymin=-3, ymax=3, figsize=[8,3], fill=True, gridlines=True)",
-			"output": [
-				{
-					"file": {
-						"show": true,
-						"uuid": "f0502560-98ce-4542-9cda-da23749e9329",
-						"filename": "/home/9a797ca6/.sage/temp/u/2339/tmp_8_0jdC.svg"
-					}
-				},
-				{
-					"stdout": "\n"
-				},
-				{
-					"stdout": ""
-				}
-			]
-		},
-		{
-			"id": "1d2b1ed8-6119-4763-9e5d-4e58b7f40610",
-			"input": "g = integrate(f, x); show(g)",
-			"output": [
-				{
-					"tex": {
-						"tex": "x \\ {\\mapsto}\\ -\\frac{1}{2} \\, \\log\\left(\\sin\\left(x\\right) - 1\\right) + \\frac{1}{2} \\, \\log\\left(\\sin\\left(x\\right) + 1\\right) - \\sin\\left(x\\right)",
-						"display": true
-					}
-				},
-				{
-					"stdout": ""
-				}
-			]
+			],
+			"id": "7021c012-1ab0-4ddf-ab64-8d6d70fc4585"
 		},
 		{
 			"id": "fe58325a-fbd3-4cef-8a67-366e94406089",
