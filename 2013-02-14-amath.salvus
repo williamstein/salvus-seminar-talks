@@ -3,7 +3,23 @@
 	"description": "Past, Present and Future",
 	"content": [
 		{
-			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372"
+			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
+			"note": "<div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>",
+			"input": "2+3",
+			"output": [
+				{
+					"stdout": "5"
+				},
+				{
+					"stdout": "\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
+		},
+		{
+			"id": "8fad3bbf-90e8-4cec-a375-afcd4c146a97"
 		}
 	]
 }
