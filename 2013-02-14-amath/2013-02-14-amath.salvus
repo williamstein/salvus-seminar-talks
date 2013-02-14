@@ -28,6 +28,7 @@
 		},
 		{
 			"id": "8fad3bbf-90e8-4cec-a375-afcd4c146a97",
+			"note": "<div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>",
 			"input": "%html\n<font size=+1>\n<p>&nbsp;</p>\n<h1 style=\"text-align: center;\">Sage Project Mission Statement</h1>\n<h2 style=\"text-align: center;\"><span style=\"color: #800000;\">\"Create A Viable Free Open Source Alternative to Magma, Maple, Mathematica, and Matlab\"</span></h2>\n<ul>\n<li><span style=\"color: #000080;\"><strong>Mathematical features:</strong></span>&nbsp;Of Magma, Maple, Mathematica, and Matlab, with comparable speed<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Graphics:</strong></span> 2d and 3d<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Notebook:</strong></span>&nbsp;Interactive graphical user interface<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Documentation:</strong></span>&nbsp;Books, papers, curriculum, etc.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Sage is not a drop-in replacement: does not run programs written in the custom languages of the Ma's.</p>\n<p>Sage is not like Octave (versus Matlab). &nbsp;</p>\n<p>Sage's culture, architecture, programming language, and feel are different than the Ma's.&nbsp;</p>",
 			"output": [
 				{
@@ -40,7 +41,7 @@
 		},
 		{
 			"id": "78a374ac-4abd-4673-980b-48226f45185f",
-			"note": "<div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>",
+			"note": "<div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>",
 			"input": "%html\n<font size=+1>\n<h2 style=\"text-align: center;\">Why <em>not</em> Magma, Maple, Matlab, Mathematica?</h2>\n<br>\n<ol>\n<li><span style=\"color: #000080;\"><strong>Commercial:</strong></span> Expensive for my collaborators and students. &nbsp;Not community owned.<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Closed:</strong></span> Implementation of algorithms often secret<br /><br /></li>\n<li><strong><span style=\"color: #000080;\">Frustrating:</span></strong> Tight control of development<br /><br /></li>\n<li><strong><span style=\"color: #000080;\">Copy protection:</span></strong> Hard to run on supercomputer or my new laptop or after my 1-year license expires.<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Programming language:</strong></span> All use a special math-only language<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Bugs:</strong></span> Bug tracking is secret<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Compiler:</strong></span> Lack of compilers for their math-only languages</li>\n</ol>",
 			"output": [
 				{
