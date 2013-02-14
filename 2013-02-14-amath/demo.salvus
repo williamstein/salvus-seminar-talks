@@ -20,13 +20,13 @@
 		},
 		{
 			"id": "86af1c8b-9f7b-4c1c-9757-a2a8c486ed69",
-			"input": "plot(f, (x, -pi,pi), ymin=-3, ymax=3, figsize=[8,3], fil)",
+			"input": "plot(f, (x, -pi,pi), ymin=-3, ymax=3, figsize=[8,3], fill=True, gridlines=True)",
 			"output": [
 				{
 					"file": {
 						"show": true,
-						"uuid": "d6852e33-e77f-446a-95f3-f9417ea6a50e",
-						"filename": "/home/9a797ca6/.sage/temp/u/31010/tmp_FxbNS1.svg"
+						"uuid": "c93786ff-9153-4c82-b099-36e5ca30e907",
+						"filename": "/home/9a797ca6/.sage/temp/u/2339/tmp_IIYAL2.svg"
 					}
 				},
 				{
