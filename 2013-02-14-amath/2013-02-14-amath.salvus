@@ -21,7 +21,7 @@
 		},
 		{
 			"id": "91989cfc-2f52-4ca4-99b7-528159f95816",
-			"note": "<div>(NOTE: I'm using Salvus -- a new experimental replacement for the Sage notebook --&nbsp;</div><div><br></div><div><br></div><div>Without further ado, let's try out Sage:</div>",
+			"note": "<div>(IMPORTANT NOTE: For this talk, I'm using Salvus -- a new experimental replacement for the Sage notebook, which won't be publicly released until March. )</div><div><br></div><div><br></div><div>Without further ado, let's try out Sage (any requests):</div><div><br></div>",
 			"input": "1 + 2 +3",
 			"output": [
 				{
@@ -102,7 +102,8 @@
 			]
 		},
 		{
-			"id": "9b8b6a6a-58d4-4fad-99b5-1426ba09d37f"
+			"id": "9b8b6a6a-58d4-4fad-99b5-1426ba09d37f",
+			"input": "%html\n<hr />\n<h2 style=\"text-align: center;\">History</h2>\n<ul>\n<li><span style=\"color: #003366;\"><strong>2005:</strong></span><a href=\"http://wstein.org/home/wstein/sage-0.1/\" target=\"_blank\">SAGE-0.1 released February 1, 2005</a>; SAGE=Software for Arithmetic Geometry Experimentation<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2006:</strong></span> (2 Sage Days workshops); Sage is not just for number theory<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2007:</strong></span> (4 Sage Days) 100% test requirements; peer review of all new code <a href=\"http://trac.sagemath.org\" target=\"_blank\">(see trac)</a>; industry funding; NSF; Trophees du Libre<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2008:</strong></span> (7 Sage Days) Release managers besides me.<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2009:</strong></span> (8 Sage Days) Better foundations; 3d graphics; more developers (e.g., sage-combinat)<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2010:</strong></span> (13 Sage Days) More devs and users; nontrivial NSF grants<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2011:</strong></span> (12 Sage Days) Much faster <a href=\"http://sagenb.org\" target=\"_blank\">http://sagenb.org</a>&nbsp;with &gt;50,000 accounts; very stable releases; undergrad curriculum development<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2012:</strong></span> (5 Sage Days already planned) &nbsp;<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>2013:</strong></span> (1 Sage Days already planned)<br /><br /></li>\n</ul>\n<p><span style=\"font-size: small;\">See <a href=\"http://wstein.org/mathsoftbio\" target=\"_blank\">this article</a> for more details about the (pre-)history of Sage.</span></p>"
 		},
 		{
 			"id": "9874dd8d-5812-41f6-912d-4fba3aeafb1d"
