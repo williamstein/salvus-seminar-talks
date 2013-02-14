@@ -4,7 +4,8 @@
 	"content": [
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
-			"note": "show command..."
+			"note": "show command...",
+			"input": "def show(obj, **kwds):\n    if is_G"
 		}
 	]
 }
