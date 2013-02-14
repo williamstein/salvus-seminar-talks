@@ -45,11 +45,29 @@
 		},
 		{
 			"id": "3b5dff7b-a2b6-400a-98f5-b1fde0abd470",
-			"input": "uuid = salvus.file('sagelogo.png')"
+			"input": "uuid = salvus.file('sagelogo.png', show=False); uuid",
+			"output": [
+				{
+					"file": {
+						"show": false,
+						"uuid": "0f8362c2-4814-4776-9ab6-5367a4253719",
+						"filename": "sagelogo.png"
+					}
+				},
+				{
+					"stdout": "'/blobs/sagelogo.png?uuid=0f8362c2-4814-4776-9ab6-5367a4253719'"
+				},
+				{
+					"stdout": "\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "70fc2415-5084-4acd-87fe-d647f03d0ea0",
-			"input": "%html\n<ol>\n<li><span style=\"color: #003366;\"><strong>Python:</strong></span> a mainstream general purpose programming language (with a compiler: Cython)<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>Distribution:</strong></span> about 100 open source packages (<strong>written by you</strong> and your colleagues!)<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>Interfaces:</strong></span> smoothly tie together all these libraries and packages<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>New library:</strong></span> implements novel algorithms; over a half million lines; worldwide community of several hundred people.<br /><br /></li>\n</ol>"
+			"input": "%html\n<h1 style=\"text-align: center;\"><span style=\"font-weight: normal; font-size: medium;\"><img src=\"/blobs/sagelogo.png?uuid=0f8362c2-4814-4776-9ab6-5367a4253719\" alt=\"\" width=\"300\" /></span></h1>\n<ol>\n<li><span style=\"color: #003366;\"><strong>Python:</strong></span> a mainstream general purpose programming language (with a compiler: Cython)<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>Distribution:</strong></span> about 100 open source packages (<strong>written by you</strong> and your colleagues!)<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>Interfaces:</strong></span> smoothly tie together all these libraries and packages<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>New library:</strong></span> implements novel algorithms; over a half million lines; worldwide community of several hundred people.<br /><br /></li>\n</ol>"
 		},
 		{
 			"id": "9b8b6a6a-58d4-4fad-99b5-1426ba09d37f"
