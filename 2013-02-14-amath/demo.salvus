@@ -20,7 +20,22 @@
 		},
 		{
 			"id": "86af1c8b-9f7b-4c1c-9757-a2a8c486ed69",
-			"input": "plot(f, "
+			"input": "plot(f, (x, -pi/3,pi/3))",
+			"output": [
+				{
+					"file": {
+						"show": true,
+						"uuid": "e4f8b05e-f386-41d5-9d46-66c95000dc6f",
+						"filename": "/home/9a797ca6/.sage/temp/u/31010/tmp_azwL3e.svg"
+					}
+				},
+				{
+					"stdout": "\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "1d2b1ed8-6119-4763-9e5d-4e58b7f40610",
