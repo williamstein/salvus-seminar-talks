@@ -20,7 +20,20 @@
 			]
 		},
 		{
-			"id": "91989cfc-2f52-4ca4-99b7-528159f95816"
+			"id": "91989cfc-2f52-4ca4-99b7-528159f95816",
+			"note": "<div><br></div><div><br></div><div><br></div><div>Without further ado, let's try out Sage:</div>",
+			"input": "1 + 2 +3",
+			"output": [
+				{
+					"stdout": "6"
+				},
+				{
+					"stdout": "\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "96ef817c-bdc2-49b6-9574-cef962652082"
