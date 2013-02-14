@@ -58,6 +58,12 @@
 			"id": "7021c012-1ab0-4ddf-ab64-8d6d70fc4585"
 		},
 		{
+			"id": "8bc38ffa-c76a-4693-83d0-d347ebc07aa5"
+		},
+		{
+			"id": "4742bfc9-b41b-4135-9811-686f2d6cfa77"
+		},
+		{
 			"id": "7932a063-ea72-44bb-9d73-4dc96697a520",
 			"note": "<div><br></div><div><br></div><div><br></div><div><br></div>"
 		},
@@ -82,7 +88,7 @@
 				},
 				{
 					"id": "aa7ac590-3ffb-4cee-8e36-cbb65c6679f2",
-					"note": "a \"dot tab\"",
+					"note": "What can you do with a matrix? &nbsp;Answer: a \"dot tab\"",
 					"input": "a."
 				},
 				{
@@ -184,6 +190,12 @@
 							"stdout": ""
 						}
 					]
+				},
+				{
+					"id": "1cbe6746-cfbe-4155-a23d-81c50b6dde89"
+				},
+				{
+					"id": "5101db70-3e6e-4ab0-acf0-78b415cff416"
 				}
 			],
 			"id": "949badc9-26da-4f42-8c69-01654bd08a79"
