@@ -14,11 +14,11 @@
 		},
 		{
 			"id": "454bc855-24e8-4092-9db8-5bfb8275e9e9",
-			"input": "show(sin(x^2))",
+			"input": "show(integrate(sin(x^2),x))",
 			"output": [
 				{
 					"tex": {
-						"tex": "\\sin\\left(x^{2}\\right)",
+						"tex": "\\frac{1}{8} \\, {\\left(\\left(i + 1\\right) \\, \\sqrt{2} \\text{erf}\\left(\\left(\\frac{1}{2} i + \\frac{1}{2}\\right) \\, \\sqrt{2} x\\right) + \\left(i - 1\\right) \\, \\sqrt{2} \\text{erf}\\left(\\left(\\frac{1}{2} i - \\frac{1}{2}\\right) \\, \\sqrt{2} x\\right)\\right)} \\sqrt{\\pi}",
 						"display": true
 					}
 				},
@@ -34,8 +34,8 @@
 				{
 					"file": {
 						"show": true,
-						"uuid": "398ee58b-1fa4-4122-a15e-4956f9ac494b",
-						"filename": "/home/9a797ca6/.sage/temp/u/25107/tmp_vXBsRf.svg"
+						"uuid": "1b87e72a-c7c1-422c-9941-5e0873570596",
+						"filename": "/home/9a797ca6/.sage/temp/u/25107/tmp_Vnnfyk.svg"
 					}
 				},
 				{
