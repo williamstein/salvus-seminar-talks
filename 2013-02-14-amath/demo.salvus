@@ -115,7 +115,7 @@
 		},
 		{
 			"id": "cefa9d50-5902-4841-b860-daa0d60ef7e4",
-			"note": "A huge 200x200 matrix:",
+			"note": "<div><br></div><div><br></div>Let's make a huge 200x200 matrix:",
 			"input": "a = random_matrix(ZZ, 200)\na[0]  # the first row",
 			"output": [
 				{
@@ -131,7 +131,7 @@
 		},
 		{
 			"id": "25388fc6-2a7a-4ce0-964d-f89aababdb26",
-			"note": "Sage can compute the determinant in less than a second!",
+			"note": "<div>Sage can compute the determinant in less than a second!<br></div>",
 			"input": "%time a.det()",
 			"output": [
 				{
