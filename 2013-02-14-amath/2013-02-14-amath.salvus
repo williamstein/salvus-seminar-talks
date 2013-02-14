@@ -44,6 +44,10 @@
 			]
 		},
 		{
+			"id": "3b5dff7b-a2b6-400a-98f5-b1fde0abd470",
+			"input": "uuid = salvus.file('sagelogo.png')"
+		},
+		{
 			"id": "70fc2415-5084-4acd-87fe-d647f03d0ea0",
 			"input": "%html\n<ol>\n<li><span style=\"color: #003366;\"><strong>Python:</strong></span> a mainstream general purpose programming language (with a compiler: Cython)<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>Distribution:</strong></span> about 100 open source packages (<strong>written by you</strong> and your colleagues!)<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>Interfaces:</strong></span> smoothly tie together all these libraries and packages<br /><br /></li>\n<li><span style=\"color: #003366;\"><strong>New library:</strong></span> implements novel algorithms; over a half million lines; worldwide community of several hundred people.<br /><br /></li>\n</ol>"
 		},
