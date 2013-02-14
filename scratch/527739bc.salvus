@@ -5,7 +5,14 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "show command...",
-			"input": "def show(obj, **kwds):\n    if sage.plot.all.Graphics"
+			"input": "def show(obj, **kwds):\n    if sage.plot.all.Graphics?"
+		},
+		{
+			"id": "adb1adce-4688-4de0-b80e-fb487dedc079",
+			"input": "type(sage.plot.all.Graphics())"
+		},
+		{
+			"id": "f69213d5-7c74-47dd-b845-d0cd4db783be"
 		}
 	]
 }
