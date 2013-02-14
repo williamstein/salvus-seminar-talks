@@ -1,9 +1,10 @@
 {
-	"title": "Title",
+	"title": "SCRATCH",
 	"description": "Description",
 	"content": [
 		{
-			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372"
+			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
+			"note": "show command..."
 		}
 	]
 }
