@@ -4,7 +4,7 @@
 	"content": [
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
-			"note": "<div><br></div>",
+			"note": "<div>The Sage Banner</div>",
 			"input": "salvus.file('sage_banner.png')",
 			"output": [
 				{
