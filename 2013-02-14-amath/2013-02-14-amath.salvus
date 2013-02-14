@@ -20,23 +20,8 @@
 			]
 		},
 		{
-			"id": "91989cfc-2f52-4ca4-99b7-528159f95816",
-			"note": "<div>(IMPORTANT NOTE: For this talk, I'm using Salvus -- a new experimental replacement for the Sage notebook, which won't be publicly released until March. )</div><div><br></div><div><br></div><div>Without further ado, let's try out Sage (any requests):</div><div><br></div>",
-			"input": "1 + 2 +3",
-			"output": [
-				{
-					"stdout": "6"
-				},
-				{
-					"stdout": "\n"
-				},
-				{
-					"stdout": ""
-				}
-			]
-		},
-		{
-			"id": "96ef817c-bdc2-49b6-9574-cef962652082"
+			"id": "96ef817c-bdc2-49b6-9574-cef962652082",
+			"note": "<div><br></div><div><br></div><div>(IMPORTANT NOTE: For this talk, I'm using Salvus -- a new experimental replacement for the Sage notebook, which won't be publicly released until March. )</div><div><br></div><div><br></div><br>"
 		},
 		{
 			"id": "ccec3b32-37ee-487c-b2c1-89c8d89bfd29"
