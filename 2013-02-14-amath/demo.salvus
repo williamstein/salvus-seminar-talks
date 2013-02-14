@@ -4,8 +4,8 @@
 	"content": [
 		{
 			"id": "2fd4805f-a887-4f20-8519-d2034797b848",
-			"note": "<div><br></div>",
-			"input": "%ht"
+			"note": "<div>Calculus</div>",
+			"input": "f(x) = sin(x)*t"
 		},
 		{
 			"id": "1d2b1ed8-6119-4763-9e5d-4e58b7f40610"
