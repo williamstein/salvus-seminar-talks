@@ -39,22 +39,7 @@
 		},
 		{
 			"id": "1d2b1ed8-6119-4763-9e5d-4e58b7f40610",
-			"input": "g = integrate(f, x); g",
-			"output": [
-				{
-					"stdout": "x |--> -1/2*log(sin(x) - 1) + 1/2*log(sin(x) + 1) - sin(x)"
-				},
-				{
-					"stdout": "\n"
-				},
-				{
-					"stdout": ""
-				}
-			]
-		},
-		{
-			"id": "fe58325a-fbd3-4cef-8a67-366e94406089",
-			"input": "show(g)",
+			"input": "g = integrate(f, x); show(g)",
 			"output": [
 				{
 					"tex": {
@@ -66,6 +51,9 @@
 					"stdout": ""
 				}
 			]
+		},
+		{
+			"id": "fe58325a-fbd3-4cef-8a67-366e94406089"
 		},
 		{
 			"id": "82ba910a-f23e-4356-8977-5c3b79f9b6fe"
