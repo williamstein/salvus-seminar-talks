@@ -5,7 +5,7 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "show command...",
-			"input": "def show(obj, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, Graphics):\n    \tt = tmp_filename()\n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        obj.show(**kwds)",
+			"input": "def show(obj, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, Graphics):\n    \tt = tmp_filename() + '.svg'\n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        obj.show(**kwds)",
 			"output": [
 				{
 					"stdout": ""
@@ -13,7 +13,20 @@
 			]
 		},
 		{
-			"id": "b77ab041-3695-4dbf-852a-266add3666d1"
+			"id": "b77ab041-3695-4dbf-852a-266add3666d1",
+			"input": "show(plot(sin), figsize=[)",
+			"output": [
+				{
+					"file": {
+						"show": true,
+						"uuid": "609acf63-9bd5-4936-bc61-5b4186f1f00c",
+						"filename": "/home/9a797ca6/.sage/temp/u/25107/tmp_vEk98G.svg"
+					}
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "adb1adce-4688-4de0-b80e-fb487dedc079",
