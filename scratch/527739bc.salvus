@@ -5,12 +5,16 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "show command...",
-			"input": "def show(obj, svg=True, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, Graphics):\n        t = tmp_filename() + ('.svg' if svg else '.png')       \n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        \n        obj.show(**kwds)",
+			"input": "def show(obj, svg=True, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, Graphics):\n        t = tmp_filename() + ('.svg' if svg else '.png')       \n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        salvus.tex(obj, show=True, **kwds)",
 			"output": [
 				{
 					"stdout": ""
 				}
 			]
+		},
+		{
+			"id": "454bc855-24e8-4092-9db8-5bfb8275e9e9",
+			"input": "sho"
 		},
 		{
 			"id": "b77ab041-3695-4dbf-852a-266add3666d1",
