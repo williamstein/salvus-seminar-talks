@@ -55,11 +55,11 @@
 		{
 			"id": "fe58325a-fbd3-4cef-8a67-366e94406089",
 			"note": "<h3 class=\"salvus-worksheet-description\" style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\">Linear Algebra</h3>",
-			"input": "a = random_matrix(QQ, 4, 4); show(a)",
+			"input": "a = random_matrix(QQ, 4, 4, QQ.random_element(); show(a)",
 			"output": [
 				{
 					"tex": {
-						"tex": "\\left(\\begin{array}{rrrr}\n0 & 0 & 1 & 1 \\\\\n-1 & \\frac{1}{2} & -1 & -\\frac{1}{2} \\\\\n-1 & -\\frac{1}{2} & 0 & 0 \\\\\n0 & 0 & 0 & -2\n\\end{array}\\right)",
+						"tex": "\\left(\\begin{array}{rrrr}\n-1 & 1 & 1 & 0 \\\\\n-2 & 0 & 0 & -1 \\\\\n1 & 0 & 0 & -2 \\\\\n1 & -1 & -1 & -2\n\\end{array}\\right)",
 						"display": true
 					}
 				},
