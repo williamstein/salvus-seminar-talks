@@ -239,6 +239,30 @@
 			"id": "773ac727-0508-493a-9088-191ff9c05f8f"
 		},
 		{
+			"id": "590ff0cf-4a61-4621-a841-edc81d85b62a",
+			"input": "iframe(\"http://interact.sagemath.org/node/23\")",
+			"output": [
+				{
+					"stderr": "Error in lines 1-1\n"
+				},
+				{
+					"stderr": "Traceback (most recent call last):\n"
+				},
+				{
+					"stderr": "  File \"sage_server.py\", line 368, in execute\n"
+				},
+				{
+					"stderr": "  File \"\", line 1, in <module>\n"
+				},
+				{
+					"stderr": "NameError: name 'iframe' is not defined\n"
+				},
+				{
+					"stdout": ""
+				}
+			]
+		},
+		{
 			"id": "f524155b-c5ba-4b12-97eb-62a6902cdbdb"
 		}
 	]
