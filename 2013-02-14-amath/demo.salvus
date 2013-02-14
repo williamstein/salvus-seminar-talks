@@ -114,7 +114,8 @@
 			]
 		},
 		{
-			"id": "cefa9d50-5902-4841-b860-daa0d60ef7e4"
+			"id": "cefa9d50-5902-4841-b860-daa0d60ef7e4",
+			"input": "a = random_matrix(ZZ, 200)"
 		}
 	]
 }
