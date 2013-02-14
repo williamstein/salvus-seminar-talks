@@ -14,7 +14,12 @@
 		},
 		{
 			"id": "f6b5c924-98f8-4bb1-bac9-02b5fd5070b4",
-			"input": "    from sage.plot.graphics import Graphics\n    Graphics.show = show\n"
+			"input": "from sage.plot.graphics import Graphics\nGraphics.show = show\n",
+			"output": [
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "454bc855-24e8-4092-9db8-5bfb8275e9e9",
@@ -49,12 +54,7 @@
 		},
 		{
 			"id": "c3d66f7a-223b-4faa-8a2b-9ee9165ea63f",
-			"input": "g = plot(sin)",
-			"output": [
-				{
-					"stdout": ""
-				}
-			]
+			"input": "plot(sin, figsize=[8,2])"
 		},
 		{
 			"id": "24698c7f-cf28-4fdd-bfa0-682ef1f68e5a",
