@@ -5,7 +5,19 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "<div><br></div>",
-			"input": "salvus.file('sage"
+			"input": "salvus.file('sage_banner.png')",
+			"output": [
+				{
+					"file": {
+						"show": true,
+						"uuid": "9a0150fd-6a4a-4970-9c4e-255656f2d80a",
+						"filename": "sage_banner.png"
+					}
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "8fad3bbf-90e8-4cec-a375-afcd4c146a97"
