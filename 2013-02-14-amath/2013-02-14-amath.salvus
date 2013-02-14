@@ -115,10 +115,19 @@
 		},
 		{
 			"id": "9874dd8d-5812-41f6-912d-4fba3aeafb1d",
-			"input": "%html\n<h1>\nGeneral Question Break\n</h1>"
+			"input": "%html\n<font size=+10><center>\n<h1>\nGeneral Question Break\n</h1>",
+			"output": [
+				{
+					"html": "<font size=+10><center>\n<h1>\nGeneral Question Break\n</h1>"
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
-			"id": "f7104349-b293-45ec-ac3a-e32d5b18b77b"
+			"id": "f7104349-b293-45ec-ac3a-e32d5b18b77b",
+			"input": "<"
 		}
 	]
 }
