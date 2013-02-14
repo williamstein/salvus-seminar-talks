@@ -114,7 +114,8 @@
 			]
 		},
 		{
-			"id": "9874dd8d-5812-41f6-912d-4fba3aeafb1d"
+			"id": "9874dd8d-5812-41f6-912d-4fba3aeafb1d",
+			"input": "%html\n<h1>\nGeneral Question Break\n</h1>"
 		},
 		{
 			"id": "f7104349-b293-45ec-ac3a-e32d5b18b77b"
