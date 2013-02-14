@@ -211,19 +211,7 @@
 			]
 		},
 		{
-			"id": "329a4af7-55a6-4489-b623-57e5dbd8dec2",
-			"input": "type(graphics_array([[plot(sin)]]))",
-			"output": [
-				{
-					"stdout": "<class 'sage.plot.graphics.GraphicsArray'>"
-				},
-				{
-					"stdout": "\n"
-				},
-				{
-					"stdout": ""
-				}
-			]
+			"id": "329a4af7-55a6-4489-b623-57e5dbd8dec2"
 		},
 		{
 			"id": "8b119c64-f9a6-47c2-b704-78f31b7f9098"
