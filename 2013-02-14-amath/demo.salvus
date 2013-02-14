@@ -5,11 +5,11 @@
 		{
 			"id": "2fd4805f-a887-4f20-8519-d2034797b848",
 			"note": "<div>Calculus</div>",
-			"input": "f(x) = sin(x)*tan(2*x)\nshow(f)",
+			"input": "f(x) = sin(x)*tan(x)\nshow(f)",
 			"output": [
 				{
 					"tex": {
-						"tex": "x \\ {\\mapsto}\\ \\sin\\left(x\\right) \\tan\\left(2 \\, x\\right)",
+						"tex": "x \\ {\\mapsto}\\ \\sin\\left(x\\right) \\tan\\left(x\\right)",
 						"display": true
 					}
 				},
@@ -23,7 +23,7 @@
 			"input": "g = integrate(f, x); g",
 			"output": [
 				{
-					"stdout": "x |--> 1/8*sqrt(2)*log(2*sin(x)^2 + 2*cos(x)^2 + 2*sqrt(2)*sin(x) + 2*sqrt(2)*cos(x) + 2) + 1/8*sqrt(2)*log(-(2*sqrt(2))*cos(x) + 2*sin(x)^2 + 2*cos(x)^2 + 2*sqrt(2)*sin(x) + 2) - 1/8*sqrt(2)*log(-(2*sqrt(2))*sin(x) + 2*sin(x)^2 + 2*cos(x)^2 + 2*sqrt(2)*cos(x) + 2) - 1/8*sqrt(2)*log(-(2*sqrt(2))*sin(x) - (2*sqrt(2))*cos(x) + 2*sin(x)^2 + 2*cos(x)^2 + 2) - sin(x)"
+					"stdout": "x |--> -1/2*log(sin(x) - 1) + 1/2*log(sin(x) + 1) - sin(x)"
 				},
 				{
 					"stdout": "\n"
@@ -34,7 +34,19 @@
 			]
 		},
 		{
-			"id": "fe58325a-fbd3-4cef-8a67-366e94406089"
+			"id": "fe58325a-fbd3-4cef-8a67-366e94406089",
+			"input": "show(g)",
+			"output": [
+				{
+					"tex": {
+						"tex": "x \\ {\\mapsto}\\ -\\frac{1}{2} \\, \\log\\left(\\sin\\left(x\\right) - 1\\right) + \\frac{1}{2} \\, \\log\\left(\\sin\\left(x\\right) + 1\\right) - \\sin\\left(x\\right)",
+						"display": true
+					}
+				},
+				{
+					"stdout": ""
+				}
+			]
 		},
 		{
 			"id": "82ba910a-f23e-4356-8977-5c3b79f9b6fe"
