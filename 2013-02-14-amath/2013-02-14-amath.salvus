@@ -20,6 +20,15 @@
 			]
 		},
 		{
+			"id": "91989cfc-2f52-4ca4-99b7-528159f95816"
+		},
+		{
+			"id": "96ef817c-bdc2-49b6-9574-cef962652082"
+		},
+		{
+			"id": "ccec3b32-37ee-487c-b2c1-89c8d89bfd29"
+		},
+		{
 			"id": "8fad3bbf-90e8-4cec-a375-afcd4c146a97",
 			"input": "%html\n<font size=+1>\n<p>&nbsp;</p>\n<h1 style=\"text-align: center;\">Sage Project Mission Statement</h1>\n<h2 style=\"text-align: center;\"><span style=\"color: #800000;\">\"Create A Viable Free Open Source Alternative to Magma, Maple, Mathematica, and Matlab\"</span></h2>\n<ul>\n<li><span style=\"color: #000080;\"><strong>Mathematical features:</strong></span>&nbsp;Of Magma, Maple, Mathematica, and Matlab, with comparable speed<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Graphics:</strong></span> 2d and 3d<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Notebook:</strong></span>&nbsp;Interactive graphical user interface<br /><br /></li>\n<li><span style=\"color: #000080;\"><strong>Documentation:</strong></span>&nbsp;Books, papers, curriculum, etc.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Sage is not a drop-in replacement: does not run programs written in the custom languages of the Ma's.</p>\n<p>Sage is not like Octave (versus Matlab). &nbsp;</p>\n<p>Sage's culture, architecture, programming language, and feel are different than the Ma's.&nbsp;</p>",
 			"output": [
