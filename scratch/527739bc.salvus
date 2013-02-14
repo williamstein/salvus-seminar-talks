@@ -5,7 +5,7 @@
 		{
 			"id": "836c678c-e3bf-421b-bd2d-dbe7471a7372",
 			"note": "show command...",
-			"input": "def show(obj, svg=True, **kwds):\n    from sage.plot.graphics import Graphics\n    if isinstance(obj, Graphics):\n        t = tmp_filename() + ('.svg' if svg else '.png')       \n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        salvus.tex(obj, display=True, **kwds)",
+			"input": "def show(obj, svg=True, **kwds):\n    from sage.plot.graphics import Graphics\n    Graphics.show = show\n    if isinstance(obj, Graphics):\n        t = tmp_filename() + ('.svg' if svg else '.png')       \n        obj.save(t, **kwds)\n        salvus.file(t)\n    else:\n        salvus.tex(obj, display=True, **kwds)",
 			"output": [
 				{
 					"stdout": ""
